@@ -1,3 +1,7 @@
+Here’s the improved README with the added Images section:
+
+---
+
 # Blog Website
 
 Welcome to the **Blog Website**! This web application allows users to view blogs and provides an admin interface for creating, updating, and deleting blog posts. 
@@ -8,6 +12,24 @@ Welcome to the **Blog Website**! This web application allows users to view blogs
 - **Admin Panel**: Admin users can create, update, and delete blog posts easily.
 - **Markdown Support**: Blog content is written in Markdown, enabling rich text formatting.
 - **Syntax Highlighting**: Code snippets are displayed with syntax highlighting for better readability.
+
+## Images
+
+### Homepage
+![Homepage](https://github.com/user-attachments/assets/f78db28b-9273-4b37-a810-66824073b7e6)
+
+### Blog Page
+![Blog Page](https://github.com/user-attachments/assets/c6be4a65-c3fc-4ca3-a59a-fa5a38524459)
+
+### Admin Dashboard
+![Admin Dashboard](https://github.com/user-attachments/assets/b9509a76-faed-4fb2-bb0d-55c5d29e92bd)
+
+### Create Blog
+![Create Blog](https://github.com/user-attachments/assets/9947bb1e-2e81-446a-afde-772f34c2de72)
+
+### Update Blog
+![Update Blog](https://github.com/user-attachments/assets/6d1d3504-42f3-46e5-aa65-09b6d759f656)
+
 
 ## Technologies Used
 
