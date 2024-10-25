@@ -1,7 +1,3 @@
-Sure! Here’s a sample README for your blog website:
-
----
-
 # Blog Website
 
 Welcome to the **Blog Website**! This web application allows users to view blogs and provides an admin interface for creating, updating, and deleting blog posts. 
@@ -88,7 +84,33 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    npm install
    ```
 
-### Running the Development Server
+### Environment Variables
+
+Create a `.env` file in the root of your project and add the following environment variable:
+
+```plaintext
+DATABASE_URL="file:./dev.db"
+```
+
+> **Note**: Environment variables declared in this file are automatically made available to Prisma. For more details, refer to the [Prisma documentation](https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema).
+
+Prisma supports the native connection string format for various databases, including PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, and CockroachDB. You can find more connection string options in the [Prisma documentation](https://pris.ly/d/connection-strings).
+
+### Setting Up Prisma
+
+1. Generate the Prisma Client:
+
+   ```bash
+   npx prisma generate
+   ```
+
+2. Run migrations to set up your database schema:
+
+   ```bash
+   npx prisma migrate dev --name init
+   ```
+
+## Running the Development Server
 
 To start the development server, run:
 
@@ -135,4 +157,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to modify any sections as needed!
+Feel free to adjust any part of the README to better fit your needs!
