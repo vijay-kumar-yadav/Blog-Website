@@ -1,7 +1,3 @@
-Here’s the improved README with the added Images section:
-
----
-
 # Blog Website
 
 Welcome to the **Blog Website**! This web application allows users to view blogs and provides an admin interface for creating, updating, and deleting blog posts. 
